@@ -1,0 +1,165 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top-wrapper{
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+  padding-top:180px;
+  padding-bottom:100px;
+  text-align:center;
+  color:white;
+  
+}
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+.top-wrapper p{
+  opacity:0.7;
+}
+.top-wrapper h1{
+  font-size:45px;
+  opacity:0.7;
+  letter-spacing:5px;
+}
+.btn{
+  display:inline-block;
+  opacity:0.8;
+  color:white;
+  padding:8px 24px;
+  border-radius:5px;
+}
+
+.sign-up{
+  background-color:#239b76;
+  margin-top:30px;
+  margin-bottom:15px;
+}
+.facebook{
+  background-color:#3b5998;
+  margin-top:15px;
+  margin-right:10px;
+}
+
+.twitter{
+  background-color:#55acee;
+}
+.btn:hover{
+  opacity:1;
+}
+
+header{
+  background-color:rgba(34,49,52,0.9);
+  height:65px;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+  background-color:rgba(255,255,255,0.3);
+  transition:all 0.5s;
+  color:white;
+}
+.logo{
+  margin-top:20px;
+  width:124px;
+}
+.header-right a{
+  line-height:65px;
+  padding:0 25px;
+  display:block;
+  color:white;
+}
+.header-right:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+
+.lesson-wrapper{
+  height:580px;
+  background-color:#f7f7f7;
+  text-align:center;
+}
+.heading{
+  padding-top:80px;
+  padding-bottom:50px;
+  color:#5f5d60;
+}
+.heading h2{
+  font-weight:normal;
+}
+
+.lesson{
+  float:left;
+  width: 25%;
+}
+.lesson-icon{
+  position:relative;
+}
+.lesson-icon p{
+  position:absolute;
+  top:44%;
+  width:100%;
+  color:white;
+}
+.text-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:15px;
+  font-size:13px;
+  color:#b3aeb5;
+}
+
+.heading h3{
+  font-weight:normal;
+}
+.message-wrapper{
+  padding-bottom:80px;
+  text-align:center;
+  border:1px #eee solid;
+}
+.message{
+  background-color:#5dca88;
+  opacity:0.8;
+  padding:15px 40px;
+  box-shadow:0 7px #1a7940;
+  cursor:pointer;
+}
+.message:active{
+ position:relative;
+ top:7px;
+ box-shadow:none;
+}
+
+footer p{
+  font-size:12px;
+}
+footer{
+  margin:30px 0;
+  color:#b3aeb5;
+}
+footer img{
+  width:124px;
+}
